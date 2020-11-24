@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        text-align: center;
+      }
+
+      .box {
+        width: 75%;
+      }
+
+      @media (min-width: 992px) {
+        .box {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container-fluid h-100 bg-dark d-flex justify-content-center align-items-center flex-column"
+    >
+      <div class="text-white m-2 fixed-top d-lg-flex justify-content-around">
+        <div class="h1">LOGO</div>
+        <div>Home | Features | Words | Contact</div>
+      </div>
+      <div class="box">
+        <img
+          class="rounded-circle"
+          src="https://picsum.photos/150/150/?random=1"
+        />
+        <div class="h2 text-white m-3">Bootstrap Layout</div>
+        <div class="text-left text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus
+          ipsum sed ab delectus id natus quos numquam odit? Voluptate obcaecati
+          soluta fugit nobis. Reprehenderit eveniet perspiciatis ex unde
+          repellat placeat. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+        </div>
+        <input
+          class="m-4 p-2 px-3 rounded-lg"
+          type="button"
+          value="Learn More"
+        />
+      </div>
+      <div class="text-white fixed-bottom small m-2">Design by yaaaan0</div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
